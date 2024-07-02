@@ -1,15 +1,15 @@
 function updateTimeAndDay() {
   const currentTimeUTC = new Date().toUTCString();
   const currentDay = new Date().toLocaleDateString("en-US", {
-    weekday: "short",
+    weekday: "long",
   });
 
   document.querySelector(
     '[data-testid="currentTimeUTC"]'
-  ).textContent = `Current Time (UTC): ${currentTimeUTC}`;
+  ).textContent = ` ${currentTimeUTC}`;
   document.querySelector(
     '[data-testid="currentDay"]'
-  ).textContent = `Current Day: ${currentDay}`;
+  ).textContent = ` ${currentDay}`;
 }
 
 setInterval(updateTimeAndDay, 1000);
