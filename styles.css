@@ -1,0 +1,92 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(10, 8, 107);
+  color: rgb(255, 255, 255);
+  padding: 16px 0;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  background-color: rgb(187, 186, 190);
+}
+h2 {
+  color: rgb(9, 8, 27);
+  font-weight: bold;
+  padding-left: 10px;
+}
+#slackName {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 4px;
+  margin-bottom: 0;
+  color: rgb(12, 12, 12);
+}
+#slackEmail {
+  font-size: 16px;
+  margin-top: 4px;
+  margin-bottom: 0;
+  color: rgb(12, 12, 12);
+}
+
+#currentTimeUTC {
+  font-size: 16px;
+  margin-top: 4px;
+  margin-bottom: 0;
+  color: rgb(12, 12, 12);
+}
+#currentDay {
+  font-size: 16px;
+  margin-top: 4px;
+  margin-bottom: 0;
+  color: rgb(12, 12, 12);
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.links {
+  list-style-type: none;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.linkslist {
+  margin: 0 10px;
+}
+.tech-goals {
+  list-style-type: none;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+.tech-goals-list {
+  font-weight: lighter;
+}
+
+a {
+  color: rgb(10, 8, 107);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 16px;
+  }
+}
