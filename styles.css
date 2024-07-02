@@ -13,7 +13,7 @@ header {
 
 main {
   padding: 20px;
-  background-color: rgb(187, 186, 190);
+  background-color: rgb(255, 255, 255);
 }
 h2 {
   color: rgb(9, 8, 27);
@@ -38,13 +38,13 @@ h2 {
   font-size: 16px;
   margin-top: 4px;
   margin-bottom: 0;
-  color: rgb(12, 12, 12);
+  color: rgb(153, 148, 148);
 }
 #currentDay {
   font-size: 16px;
   margin-top: 4px;
   margin-bottom: 0;
-  color: rgb(12, 12, 12);
+  color: rgb(153, 148, 148);
 }
 
 section {
@@ -70,9 +70,11 @@ img {
   list-style-type: none;
   margin-bottom: 50px;
   font-weight: bold;
+  color: rgb(9, 8, 27);
 }
 .tech-goals-list {
   font-weight: lighter;
+  color: rgb(9, 8, 27);
 }
 
 a {
@@ -87,6 +89,6 @@ a:hover {
 
 @media (max-width: 600px) {
   main {
-    padding: 16px;
+    padding: 15px;
   }
 }
