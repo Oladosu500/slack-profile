@@ -89,6 +89,10 @@ a:hover {
 
 @media (max-width: 600px) {
   main {
-    padding: 15px;
+    padding: 10px;
+  }
+  .links {
+    font-size: 14px;
+
   }
 }
