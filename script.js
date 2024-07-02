@@ -4,11 +4,11 @@ function updateTimeAndDay() {
     weekday: "short",
   });
 
-  document.getElementById(
-    "currentTimeUTC"
+  document.querySelector(
+    '[data-testid="currentTimeUTC"]'
   ).textContent = `Current Time (UTC): ${currentTimeUTC}`;
-  document.getElementById(
-    "currentDay"
+  document.querySelector(
+    '[data-testid="currentDay"]'
   ).textContent = `Current Day: ${currentDay}`;
 }
 
